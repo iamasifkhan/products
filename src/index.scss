@@ -1,0 +1,23 @@
+body {
+    
+}
+
+.product-card {
+    min-height: 250px;
+    border: 1px solid #eee;
+
+    .image-container {
+        .product-image {
+            padding: 25px;
+            text-align: center;
+        }
+    }
+
+    figcaption {
+        height: 100%;
+                
+        .price-value {
+            font-weight: bold;
+        }
+    }
+}
